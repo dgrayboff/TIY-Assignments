@@ -6,7 +6,7 @@ Ah, FizzBuzz. This is one of the most popular interview questions. And surprisin
 
 Your answer should print to the console. */
 
-for (var i = 0; i <= 100; i++) {
+for (var i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
   }
@@ -19,4 +19,4 @@ for (var i = 0; i <= 100; i++) {
   else {
     console.log(i);
   }
-}
+};
