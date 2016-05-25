@@ -16,12 +16,12 @@ var sum = 0;
 var x = 1;
 var y = 2;
 
-while(x <= 4000000) {
-	if (x % 2 === 0) {
-		sum += x;
+while(x <= 4000000) { // 4mil since asks for values not exceeding 4 million
+	if (x % 2 === 0) { // checks if number is divisible by 2 to check if even
+		sum += x; // returns the sum to hold the value of the totals plus x that is looped
 	}
-	var z = x + y;
-	x = y;
+	var z = x + y; // z holds sums of x and y
+	x = y; // changes variables since each loop needs to give value of previous variable as well as new one
 	y = z;
 }
 console.log(sum);
