@@ -1,15 +1,13 @@
 var age = {
 	currentyear: 2016,
-	birthyear1: 1990,
-	birthyear2: 1989,
+	birthyear: 1990,
 
 };
 
-var possibleage1 = age.currentyear - age.birthyear1;
-var possibleage2 = age.currentyear - age.birthyear2;
+var possibleage = age.currentyear - age.birthyear;
 
-var either = ("They are either " + possibleage1 + " or " + possibleage2);
+var either = ("They are either " + possibleage + " or " + (possibleage - 1));
 
 console.log(either);
 
->> They are either 26 or 27
+>> They are either 26 or 25
