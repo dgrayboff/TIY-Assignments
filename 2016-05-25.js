@@ -11,3 +11,5 @@ var possibleage2 = age.currentyear - age.birthyear2;
 var either = ("They are either " + possibleage1 + " or " + possibleage2);
 
 console.log(either);
+
+>> They are either 26 or 27
