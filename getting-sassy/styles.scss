@@ -1,0 +1,58 @@
+$font-stack: Century Gothic, sans-serif;
+$main-color: #FFF;
+$bg-color: #3078A8;
+$radius: 5px;
+$shadowblack: 0.1em 0.1em 0.05em #000;
+$shadowblue: 0 0 0.2em $bg-color;
+
+body {
+  background-color: $main-color;
+  font-family: $font-stack;
+  text-align: center;
+}
+
+section {
+  background-color:$bg-color;
+  border-radius: $radius;
+  padding: 25px;
+  margin: auto;
+  width: 50%;
+}
+
+header {
+  h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: $shadowblue;
+  }
+
+  .box {
+    background-color: $bg-color;
+    @extend section;
+    height: 5px;
+    padding: 2px;
+    margin-bottom: 25px;
+  }
+}
+
+img {
+  height: auto;
+  width: 100%;
+  border-radius: $radius;
+}
+
+h3 {
+  @extend img;
+  background-color: $bg-color;
+  padding: 15px;
+  width: 50%;
+  margin: auto;
+  text-shadow: $shadowblack;
+  color: $main-color;
+}
+
+footer {
+  h1 {
+    text-shadow: $shadowblue;
+  }
+}

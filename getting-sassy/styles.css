@@ -1,0 +1,39 @@
+body {
+  background-color: #FFF;
+  font-family: Century Gothic, sans-serif;
+  text-align: center; }
+
+section, header .box {
+  background-color: #3078A8;
+  border-radius: 5px;
+  padding: 25px;
+  margin: auto;
+  width: 50%; }
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 0.2em #3078A8; }
+header .box {
+  background-color: #3078A8;
+  height: 5px;
+  padding: 2px;
+  margin-bottom: 25px; }
+
+img, h3 {
+  height: auto;
+  width: 100%;
+  border-radius: 5px; }
+
+h3 {
+  background-color: #3078A8;
+  padding: 15px;
+  width: 50%;
+  margin: auto;
+  text-shadow: 0.1em 0.1em 0.05em #000;
+  color: #FFF; }
+
+footer h1 {
+  text-shadow: 0 0 0.2em #3078A8; }
+
+/*# sourceMappingURL=styles.css.map */
