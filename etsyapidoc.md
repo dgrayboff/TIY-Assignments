@@ -4,13 +4,13 @@ What is the base URL for all requests?
   * https://openapi.etsy.com/v2/  
 Are there any headers or query parameters required?  
 
-What kind of response should I expect?  
+What kind of response should I expect?    
   * Response is formatted in JSON, and the user name that's passed is converted into a user ID as part of the params in the JSON file.  
 
-How does the API handle authentication?  
+How does the API handle authentication?    
    * It uses OAuth 1.0 and request/access tokens.  
-Do I need to authenticate? with user credentials?  
-  * Authentication is needed, but temporary credentials are provided. To get these, you send Etsy a request with your consumer key, signed with your "shared secret". The return of temp credentials includes an OAuth token and token secret, so the app can authenticate against an Etsy member's account without requesting a username or password.
+Do I need to authenticate? with user credentials?     
+  * Authentication is needed, but temporary credentials are provided. To get these, you send Etsy a request with your consumer key, signed with your "shared secret". The return of temp credentials includes an OAuth token and token secret, so the app can authenticate against an Etsy member's account without requesting a username or password.  
 What can I do with an unauthenticated request?    
   * The level of access is not that high and not that different from apps using basic, API-key-based authentication.  
 How can I authenticate my request? (what methods)  
